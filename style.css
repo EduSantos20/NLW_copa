@@ -7,6 +7,12 @@
   --card-title-border-color: #746615;
   --card-color-primary: #f7dd43;
   --card-bg-color: #1d1c19;
+  --card-title-border-color: #338af3;
+  --card-color-primary: #338af3;
+  --bg: url(./assets/bg-blue.svg);
+  --bg: url(./assets/bg-green.svg);
+  --body: #338af3;
+
 }
 body.yellow {
   --bg: url(./assets/bg-yellow.svg);
@@ -27,8 +33,8 @@ ul {
   list-style: none;
 }
 body {
-  background-color: #121214;
-  background-image: var(--bg);
+  background-color: var(--body);
+  /*background-image: var(--bg);*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,6 +56,14 @@ header {
 header img {
   width: 150px;
   margin-top: 10px;
+}
+#btn{
+  padding: 6px;
+  background: var(--card-bg-color);
+  border-radius: 6px;
+  border: none;
+  color: #e1e1e6;
+  text-transform: uppercase;
 }
 #cards {
   display: flex;
