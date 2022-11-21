@@ -80,6 +80,13 @@ header img {
 
   color: #f7dd43;
 }
+.nomesTimes{
+  display: flex;
+  justify-content: space-between;
+  color: #e1e1e6;
+  font-size: 18px;
+  text-transform: uppercase;
+}
 .card h2 span {
   color: #e1e1e6;
   font-size: 14px;
