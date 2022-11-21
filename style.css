@@ -43,11 +43,11 @@ body * {
 }
 #app {
   width: fit-content;
-  margin: 52px auto;
+  margin: 30px auto;
   padding-top: 20px;
 }
 header {
-  margin-bottom: 63px;
+  margin-bottom: 30px;
   display: grid;
   justify-content: space-around;
   text-align: center;
@@ -63,6 +63,8 @@ header img {
   border: none;
   color: #e1e1e6;
   text-transform: uppercase;
+  position: fixed;
+  z-index: 1;
 }
 #cards {
   display: flex;
