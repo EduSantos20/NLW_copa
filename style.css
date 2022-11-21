@@ -4,16 +4,14 @@
   box-sizing: border-box;
 }
 :root {
-  --card-title-border-color: #746615;
-  --card-color-primary: #f7dd43;
   --card-bg-color: #1d1c19;
-  --card-title-border-color: #338af3;
-  --card-color-primary: #338af3;
+  --card-title-border-color: #b8b8b8;
+  --card-color-primary: #ad3f5b;
   --bg: url(./assets/bg-blue.svg);
   --bg: url(./assets/bg-green.svg);
-  --body: #338af3;
+  --body: #ad3f5b;
 }
-body.yellow {
+/*body.yellow {
   --bg: url(./assets/bg-yellow.svg);
 }
 body.blue {
@@ -27,7 +25,7 @@ body.green {
   --card-color-primary: #047c3f;
   --card-bg-color: #1d1c19;
   --bg: url(./assets/bg-green.svg);
-}
+}*/
 ul {
   list-style: none;
 }
@@ -61,7 +59,7 @@ header img {
   background: var(--card-bg-color);
   border-radius: 6px;
   border: none;
-  color: #e1e1e6;
+  color: var(--card-title-border-color);
   text-transform: uppercase;
 }
 #cards {
@@ -74,7 +72,7 @@ header img {
   text-align: center;
 
   background: var(--card-bg-color);
-  border-bottom: 2px solid var(--card-color-primary);
+  border-bottom: 4px solid var(--card-title-border-color);
   border-radius: 6px;
 }
 .card h2 {
@@ -99,20 +97,20 @@ hr{
 .nomesTimes {
   display: flex;
   justify-content: space-between;
-  color: #e1e1e6;
+  color: var(--card-title-border-color);
   font-size: 16px;
   text-transform: uppercase;
 }
 .gool {
   display: flex;
   justify-content: center;
-  color: #e1e1e6;
+  color: var(--card-title-border-color);
   font-size: 36px;
   text-transform: uppercase;
   gap: 78%;
 }
 .card h2 span {
-  color: #e1e1e6;
+  color: var(--card-title-border-color);
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -135,7 +133,7 @@ hr{
   font-weight: 500;
   font-size: 36px;
   line-height: 125%;
-  color: #e1e1e6;
+  color: var(--card-title-border-color);
 }
 .card h2:hover,
 .card ul li strong:hover,
@@ -160,7 +158,7 @@ footer p {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  color: #e1e1e6;
+  color: black;
   font-size: 15px;
   font-weight: 300;
 }

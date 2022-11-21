@@ -1,18 +1,18 @@
 const body = document.querySelector("body")
 const root = document.querySelector(":root")
 document.getElementById("btn").addEventListener("click", function () {
-  if (body.dataset.theme === "blue") {
-    root.style.setProperty("--card-title-border-color", "#338af3")
-    root.style.setProperty("--card-color-primary", "#338af3")
+  if (body.dataset.theme === "white") {
+    root.style.setProperty("--card-title-border-color", "#b8b8b8")
+    root.style.setProperty("--card-color-primary", "#b8b8b8")
     root.style.setProperty("--card-bg-color", "#202024")
-    root.style.setProperty("--body", "#338af3")
-    body.dataset.theme = "green"
+    root.style.setProperty("--body", "#e3e0dd")
+    body.dataset.theme = "red"
   } else {
-    root.style.setProperty("--card-title-border-color", "#047c3f")
-    root.style.setProperty("--card-color-primary", "#047c3f")
+    root.style.setProperty("--card-title-border-color", "#b8b8b8")
+    root.style.setProperty("--card-color-primary", "#b8b8b8")
     root.style.setProperty("--card-bg-color", "#1d1c19")
-    root.style.setProperty("--body", "#047c3f")
-    body.dataset.theme = "blue"
+    root.style.setProperty("--body", "#ad3f5b")
+    body.dataset.theme = "white"
   }
 })
 
