@@ -12,7 +12,6 @@
   --bg: url(./assets/bg-blue.svg);
   --bg: url(./assets/bg-green.svg);
   --body: #338af3;
-
 }
 body.yellow {
   --bg: url(./assets/bg-yellow.svg);
@@ -40,7 +39,7 @@ body {
   background-size: cover;
 }
 body * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 #app {
   width: fit-content;
@@ -57,7 +56,7 @@ header img {
   width: 150px;
   margin-top: 10px;
 }
-#btn{
+#btn {
   padding: 6px;
   background: var(--card-bg-color);
   border-radius: 6px;
@@ -94,12 +93,23 @@ header img {
 
   color: #f7dd43;
 }
-.nomesTimes{
+hr{
+  border: 1px solid var(--card-title-border-color);
+}
+.nomesTimes {
   display: flex;
   justify-content: space-between;
   color: #e1e1e6;
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
+}
+.gool {
+  display: flex;
+  justify-content: center;
+  color: #e1e1e6;
+  font-size: 36px;
+  text-transform: uppercase;
+  gap: 78%;
 }
 .card h2 span {
   color: #e1e1e6;
@@ -110,7 +120,6 @@ header img {
   display: flex;
   flex-direction: column;
   gap: 24px;
-
   width: 270px;
 }
 .card ul li {
@@ -123,7 +132,7 @@ header img {
   border-top: 1px solid #323238;
 }
 .card ul li strong {
-  font-weight: 900;
+  font-weight: 500;
   font-size: 36px;
   line-height: 125%;
   color: #e1e1e6;

@@ -16,10 +16,19 @@ document.getElementById("btn").addEventListener("click", function () {
   }
 })
 
+function gool(gool, gool1) {
+  return `
+  <div class="gool">
+    <p>${gool}</p>
+    <p>${gool1}</p>
+  </div> 
+  `
+}
 function creatGame(player1, hour, player2) {
   return `
+  <hr/>
   <div class="nomesTimes">
-    <p>${player1} <strong>${""}</strong></p>
+    <p>${player1}</p>
     <p>${player2}</p>
   </div>
   <li>
@@ -44,99 +53,103 @@ function createCard(date, day, games) {
 }
 
 document.querySelector("#cards").innerHTML =
-  createCard("20/11", "Domingo", creatGame("catar", "13:00", "ecuador")) +
+  createCard(
+    "20/11",
+    "Domingo",
+     creatGame("catar", "13:00", "ecuador") + gool("0","2")
+  ) +
   createCard(
     "21/11",
     "Segunda-Feira",
-    creatGame("england", "10:00", "iran") +
-      creatGame("senegal", "13:00", "netherlands") +
-      creatGame("usa", "16:00", "wales")
+    creatGame("england", "10:00", "iran") +gool("6", "2")+
+      creatGame("senegal", "13:00", "netherlands") + gool("0", "2")+
+      creatGame("usa", "16:00", "wales")+gool("1", "1")
   ) +
   createCard(
     "22/11",
     "Terça-Feira",
-    creatGame("argentina", "07:00", "arabiaSaudita") +
-      creatGame("dinamarca", "10:00", "tunisia") +
-      creatGame("mexico", "13:00", "poland") +
-      creatGame("france", "16:00", "australia")
+    creatGame("argentina", "07:00", "arabiaSaudita") +gool("0", "0")+
+      creatGame("dinamarca", "10:00", "tunisia") + gool("0", "0")+
+      creatGame("mexico", "13:00", "poland") + gool("0", "0")+
+      creatGame("france", "16:00", "australia")+gool("0", "0")
   ) +
   createCard(
     "23/11",
     "Quarta-Feira",
-    creatGame("morocco", "07:00", "croatia") +
-      creatGame("germany", "10:00", "japan") +
-      creatGame("spain", "13:00", "costaRica") +
-      creatGame("belgium", "16:00", "canada")
+    creatGame("morocco", "07:00", "croatia") +gool("0", "0")+
+      creatGame("germany", "10:00", "japan") +gool("0", "0")+
+      creatGame("spain", "13:00", "costaRica") +gool("0", "0")+
+      creatGame("belgium", "16:00", "canada")+gool("0", "0")
   ) +
   createCard(
     "24/11",
     "Quinta-Feira",
-    creatGame("switzerland", "07:00", "cameroon") +
-      creatGame("uruguay", "10:00", "southKorea") +
-      creatGame("portugal", "13:00", "ghana") +
-      creatGame("brasil", "16:00", "serbia")
+    creatGame("switzerland", "07:00", "cameroon") +gool("0", "0")+
+      creatGame("uruguay", "10:00", "southKorea") +gool("0", "0")+
+      creatGame("portugal", "13:00", "ghana") +gool("0", "0")+
+      creatGame("brasil", "16:00", "serbia")+gool("0", "0")
   ) +
   createCard(
     "25/11",
     "Sexta-Feira",
-    creatGame("wales", "07:00", "iran") +
-      creatGame("catar", "10:00", "senegal") +
-      creatGame("netherlands", "13:00", "ecuador") +
-      creatGame("england", "16:00", "usa")
+    creatGame("wales", "07:00", "iran") +gool("0", "0")+
+      creatGame("catar", "10:00", "senegal") +gool("0", "0")+
+      creatGame("netherlands", "13:00", "ecuador") +gool("0", "0")+
+      creatGame("england", "16:00", "usa")+gool("0", "0")
   ) +
   createCard(
     "26/11",
     "Sabado",
-    creatGame("tunisia", "07:00", "australia") +
-      creatGame("poland", "10:00", "saudiArabia") +
-      creatGame("france", "13:00", "dinamarca") +
-      creatGame("argentina", "16:00", "mexico")
+    creatGame("tunisia", "07:00", "australia") +gool("0", "0")+
+      creatGame("poland", "10:00", "saudiArabia") +gool("0", "0")+
+      creatGame("france", "13:00", "dinamarca") +gool("0", "0")+
+      creatGame("argentina", "16:00", "mexico")+gool("0", "0")
   ) +
   createCard(
     "27/11",
     "Domigo",
-    creatGame("japan", "07:00", "costaRica") +
-      creatGame("belgium", "10:00", "morocco") +
-      creatGame("croatia", "13:00", "canada") +
-      creatGame("spain", "16:00", "germany")
+    creatGame("japan", "07:00", "costaRica") +gool("0", "0")+
+      creatGame("belgium", "10:00", "morocco") +gool("0", "0")+
+      creatGame("croatia", "13:00", "canada") +gool("0", "0")+
+      creatGame("spain", "16:00", "germany")+gool("0", "0")
   ) +
   createCard(
     "28/11",
     "Sexta-Feira",
-    creatGame("cameroon", "07:00", "serbia") +
-      creatGame("southKorea", "10:00", "ghana") +
-      creatGame("brasil", "13:00", "switzerland") +
-      creatGame("portugal", "16:00", "uruguay")
+    creatGame("cameroon", "07:00", "serbia") +gool("0", "0")+
+      creatGame("southKorea", "10:00", "ghana") +gool("0", "0")+
+      creatGame("brasil", "13:00", "switzerland") +gool("0", "0")+
+      creatGame("portugal", "16:00", "uruguay")+gool("0", "0")
   ) +
   createCard(
     "29/11",
     "Terça-Feira",
-    creatGame("ecuador", "12:00", "senegal") +
-      creatGame("netherlands", "12:00", "catar") +
-      creatGame("iran", "16:00", "usa") +
-      creatGame("wales", "16:00", "england")
+    creatGame("ecuador", "12:00", "senegal") +gool("0", "0")+
+      creatGame("netherlands", "12:00", "catar") +gool("0", "0")+
+      creatGame("iran", "16:00", "usa") +gool("0", "0")+
+      creatGame("wales", "16:00", "england")+gool("0", "0")
   ) +
   createCard(
     "30/11",
     "Quarta-Feira",
-    creatGame("tunisia", "12:00", "france") +
-      creatGame("australia", "12:00", "dinamarca") +
-      creatGame("poland", "16:00", "argentina") +
-      creatGame("saudiArabia", "16:00", "mexico")
+    creatGame("tunisia", "12:00", "france") +gool("0", "0")+
+      creatGame("australia", "12:00", "dinamarca") +gool("0", "0")+
+      creatGame("poland", "16:00", "argentina") +gool("0", "0")+
+      creatGame("saudiArabia", "16:00", "mexico")+gool("0", "0")
   ) +
   createCard(
     "01/12",
     "Quinta-Feira",
-    creatGame("croatia", "12:00", "belgium") +
-      creatGame("canada", "12:00", "morocco") +
-      creatGame("japan", "16:00", "spain") +
-      creatGame("costaRica", "16:00", "germany")
+    creatGame("croatia", "12:00", "belgium") +gool("0", "0")+
+      creatGame("canada", "12:00", "morocco") +gool("0", "0")+
+      creatGame("japan", "16:00", "spain") +gool("0", "0")+
+      creatGame("costaRica", "16:00", "germany")+gool("0", "0")
   ) +
   createCard(
     "02/12",
     "Sexta-Feira",
-    creatGame("southKorea", "12:00", "portugal") +
-      creatGame("ghana", "12:00", "uruguay") +
-      creatGame("serbia", "16:00", "switzerland") +
-      creatGame("cameroon", "16:00", "brasil")
+    creatGame("southKorea", "12:00", "portugal") +gool("0", "0")+
+      creatGame("ghana", "12:00", "uruguay") +gool("0", "0")+
+      creatGame("serbia", "16:00", "switzerland") +gool("0", "0")+
+      creatGame("cameroon", "16:00", "brasil")+gool("0", "0")
   )
