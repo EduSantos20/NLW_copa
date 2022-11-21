@@ -63,8 +63,6 @@ header img {
   border: none;
   color: #e1e1e6;
   text-transform: uppercase;
-  position: fixed;
-  z-index: 1;
 }
 #cards {
   display: flex;
