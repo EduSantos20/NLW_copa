@@ -82,7 +82,7 @@ header img {
   align-items: center;
 
   padding: 8px 16px;
-  border: 1px solid var(--card-title-border-color);
+  border: 1px solid var(--card-color-primary);
   border-radius: 6px;
 
   width: fit-content;
