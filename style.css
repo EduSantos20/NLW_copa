@@ -5,7 +5,7 @@
 }
 :root {
   --card-bg-color: #1d1c19;
-  --card-title-border-color: #b8b8b8;
+  --card-title-border-color: white;
   --card-color-primary: #ad3f5b;
   --bg: url(./assets/bg-blue.svg);
   --bg: url(./assets/bg-green.svg);
@@ -91,26 +91,26 @@ header img {
 
   color: #f7dd43;
 }
-hr{
+hr {
   border: 1px solid var(--card-title-border-color);
 }
 .nomesTimes {
   display: flex;
   justify-content: space-between;
-  color: var(--card-title-border-color);
+  color: white;
   font-size: 16px;
   text-transform: uppercase;
 }
 .gool {
   display: flex;
   justify-content: center;
-  color: var(--card-title-border-color);
+  color: white;
   font-size: 36px;
   text-transform: uppercase;
   gap: 78%;
 }
 .card h2 span {
-  color: var(--card-title-border-color);
+  color: white;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -133,7 +133,7 @@ hr{
   font-weight: 500;
   font-size: 36px;
   line-height: 125%;
-  color: var(--card-title-border-color);
+  color: white;
 }
 .card h2:hover,
 .card ul li strong:hover,
