@@ -72,13 +72,13 @@ document.querySelector("#cards").innerHTML =
     "22/11",
     "Terça-Feira",
     creatGame("argentina", "07:00", "arabiaSaudita") +
-      gool("0", "0") +
+      gool("1", "2") +
       creatGame("dinamarca", "10:00", "tunisia") +
       gool("0", "0") +
       creatGame("mexico", "13:00", "poland") +
       gool("0", "0") +
       creatGame("france", "16:00", "australia") +
-      gool("0", "0")
+      gool("4", "1")
   ) +
   createCard(
     "23/11",
@@ -86,11 +86,11 @@ document.querySelector("#cards").innerHTML =
     creatGame("morocco", "07:00", "croatia") +
       gool("0", "0") +
       creatGame("germany", "10:00", "japan") +
-      gool("0", "0") +
+      gool("1", "2") +
       creatGame("spain", "13:00", "costaRica") +
-      gool("0", "0") +
+      gool("7", "0") +
       creatGame("belgium", "16:00", "canada") +
-      gool("0", "0")
+      gool("1", "0")
   ) +
   createCard(
     "24/11",
