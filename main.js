@@ -96,23 +96,23 @@ document.querySelector("#cards").innerHTML =
     "24/11",
     "Quinta-Feira",
     creatGame("switzerland", "07:00", "cameroon") +
-      gool("0", "0") +
+      gool("1", "0") +
       creatGame("uruguay", "10:00", "southKorea") +
       gool("0", "0") +
       creatGame("portugal", "13:00", "ghana") +
-      gool("0", "0") +
+      gool("3", "0") +
       creatGame("brasil", "16:00", "serbia") +
-      gool("0", "0")
+      gool("2", "0")
   ) +
   createCard(
     "25/11",
     "Sexta-Feira",
     creatGame("wales", "07:00", "iran") +
-      gool("0", "0") +
+      gool("0", "2") +
       creatGame("catar", "10:00", "senegal") +
-      gool("0", "0") +
+      gool("1", "3") +
       creatGame("netherlands", "13:00", "ecuador") +
-      gool("0", "0") +
+      gool("1", "1") +
       creatGame("england", "16:00", "usa") +
       gool("0", "0")
   ) +
@@ -120,37 +120,37 @@ document.querySelector("#cards").innerHTML =
     "26/11",
     "Sabado",
     creatGame("tunisia", "07:00", "australia") +
-      gool("0", "0") +
+      gool("0", "1") +
       creatGame("poland", "10:00", "saudiArabia") +
-      gool("0", "0") +
+      gool("2", "0") +
       creatGame("france", "13:00", "dinamarca") +
-      gool("0", "0") +
+      gool("2", "1") +
       creatGame("argentina", "16:00", "mexico") +
-      gool("0", "0")
+      gool("2", "0")
   ) +
   createCard(
     "27/11",
     "Domigo",
     creatGame("japan", "07:00", "costaRica") +
-      gool("0", "0") +
+      gool("0", "1") +
       creatGame("belgium", "10:00", "morocco") +
-      gool("0", "0") +
+      gool("0", "2") +
       creatGame("croatia", "13:00", "canada") +
-      gool("0", "0") +
+      gool("4", "1") +
       creatGame("spain", "16:00", "germany") +
-      gool("0", "0")
+      gool("1", "1")
   ) +
   createCard(
     "28/11",
     "Sexta-Feira",
     creatGame("cameroon", "07:00", "serbia") +
-      gool("0", "0") +
+      gool("3", "3") +
       creatGame("southKorea", "10:00", "ghana") +
-      gool("0", "0") +
+      gool("2", "3") +
       creatGame("brasil", "13:00", "switzerland") +
-      gool("0", "0") +
+      gool("1", "0") +
       creatGame("portugal", "16:00", "uruguay") +
-      gool("0", "0")
+      gool("2", "0")
   ) +
   createCard(
     "29/11",
